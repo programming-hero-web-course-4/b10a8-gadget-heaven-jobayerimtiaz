@@ -1,0 +1,257 @@
+[
+  {
+    "product_id": 1,
+    "product_title": "Dell XPS 13",
+    "product_image": "/public/GadgetImg/Dell-XPS-13-Plus-1.jpg",
+    "category": "laptop",
+    "price": 1299.99,
+    "description": "The Dell XPS 13 is a compact and powerful laptop with a stunning InfinityEdge display.",
+    "Specification": [
+      "13.4-inch FHD+ Display",
+      "Intel Core i7-1165G7",
+      "16GB RAM",
+      "512GB SSD",
+      "Windows 11 Home"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 2,
+    "product_title": "Samsung Galaxy S22 Ultra",
+    "product_image": "/public/GadgetImg/S22_Ultra_ProductKV_Green_MO.jpg",
+    "category": "phone",
+    "price": 1199.99,
+    "description": "The Samsung Galaxy S22 Ultra features a powerful camera and a sleek design.",
+    "Specification": [
+      "6.8-inch Dynamic AMOLED Display",
+      "Snapdragon 8 Gen 1",
+      "12GB RAM",
+      "256GB Storage",
+      "5000mAh Battery"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 3,
+    "product_title": "Apple Watch Series 8",
+    "product_image": "/public/GadgetImg/Apple-watch-series-8.jpg",
+    "category": "smart watch",
+    "price": 399.99,
+    "description": "The Apple Watch Series 8 offers advanced health features and a stylish design.",
+    "Specification": [
+      "45mm Retina Display",
+      "Blood Oxygen Sensor",
+      "ECG App",
+      "Water Resistant",
+      "iOS Compatibility"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 4,
+    "product_title": "MacBook Air M2",
+    "product_image": "/public/GadgetImg/MacBook-Air-M2.jpg",
+    "category": "macbook",
+    "price": 1499.99,
+    "description": "The MacBook Air M2 is a lightweight and powerful laptop with Apple's latest chip.",
+    "Specification": [
+      "13.6-inch Liquid Retina Display",
+      "Apple M2 Chip",
+      "8GB RAM",
+      "256GB SSD",
+      "macOS Ventura"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 5,
+    "product_title": "iPhone 14 Pro",
+    "product_image": "/public/GadgetImg/iPhone-14-Pro.jpg",
+    "category": "iphone",
+    "price": 999.99,
+    "description": "The iPhone 14 Pro features a Dynamic Island and a powerful A16 Bionic chip.",
+    "Specification": [
+      "6.1-inch Super Retina XDR Display",
+      "A16 Bionic Chip",
+      "128GB Storage",
+      "48MP Main Camera",
+      "iOS 16"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 6,
+    "product_title": "AirPods Pro (2nd Gen)",
+    "product_image": "/public/GadgetImg/airpods-pro-2.jpg",
+    "category": "accessories",
+    "price": 249.99,
+    "description": "The AirPods Pro (2nd Gen) offer active noise cancellation and a customizable fit.",
+    "Specification": [
+      "Active Noise Cancellation",
+      "Adaptive Transparency",
+      "Spatial Audio",
+      "MagSafe Charging Case",
+      "Up to 6 hours of battery life"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 7,
+    "product_title": "HP Spectre x360",
+    "product_image": "/public/GadgetImg/HP-Spectre-X360-2.jpg",
+    "category": "laptop",
+    "price": 1399.99,
+    "description": "The HP Spectre x360 is a versatile 2-in-1 laptop with a sleek design.",
+    "Specification": [
+      "13.5-inch OLED Display",
+      "Intel Core i7-1255U",
+      "16GB RAM",
+      "1TB SSD",
+      "Windows 11 Home"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 8,
+    "product_title": "Google Pixel 7 Pro",
+    "product_image": "/public/GadgetImg/Pixel-7-Pro-Obsidian-8439.jpg",
+    "category": "phone",
+    "price": 899.99,
+    "description": "The Google Pixel 7 Pro features a powerful camera and Google's Tensor G2 chip.",
+    "Specification": [
+      "6.7-inch QHD+ Display",
+      "Tensor G2 Chip",
+      "12GB RAM",
+      "128GB Storage",
+      "5000mAh Battery"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 9,
+    "product_title": "Samsung Galaxy Watch 5",
+    "product_image": "/public/GadgetImg/Apple-watch-series-8.jpg",
+    "category": "smart watch",
+    "price": 279.99,
+    "description": "The Samsung Galaxy Watch 5 offers advanced health tracking and a durable design.",
+    "Specification": [
+      "40mm Super AMOLED Display",
+      "Bioelectrical Impedance Analysis",
+      "Sleep Tracking",
+      "Water Resistant",
+      "Android Compatibility"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 10,
+    "product_title": "MacBook Pro 14-inch",
+    "product_image": "/public/GadgetImg/MacBook-Pro-14-inch.jpg",
+    "category": "macbook",
+    "price": 1999.99,
+    "description": "The MacBook Pro 14-inch is a powerhouse for professionals with the M1 Pro chip.",
+    "Specification": [
+      "14.2-inch Liquid Retina XDR Display",
+      "Apple M1 Pro Chip",
+      "16GB RAM",
+      "512GB SSD",
+      "macOS Ventura"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 11,
+    "product_title": "iPhone SE (2022)",
+    "product_image": "/public/GadgetImg/iPhone-SE-(2022).jpg",
+    "category": "iphone",
+    "price": 429.99,
+    "description": "The iPhone SE (2022) combines a classic design with the power of the A15 Bionic chip.",
+    "Specification": [
+      "4.7-inch Retina HD Display",
+      "A15 Bionic Chip",
+      "64GB Storage",
+      "12MP Camera",
+      "iOS 15"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": 12,
+    "product_title": "Logitech MX Master 3S",
+    "product_image": "/public/GadgetImg/Logitech-MX-Master-3S.jpg",
+    "category": "accessories",
+    "price": 99.99,
+    "description": "The Logitech MX Master 3S is a premium wireless mouse designed for productivity.",
+    "Specification": [
+      "8000 DPI Sensor",
+      "Wireless Connectivity",
+      "7 Programmable Buttons",
+      "USB-C Rechargeable",
+      "Compatible with Windows, macOS"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 13,
+    "product_title": "Sony WH-1000XM5",
+    "product_image": "/public/GadgetImg/Sony-WH-1000XM5.jpg",
+    "category": "accessories",
+    "price": 399.99,
+    "description": "The Sony WH-1000XM5 offers industry-leading noise cancellation and exceptional sound quality.",
+    "Specification": [
+      "Active Noise Cancellation",
+      "30-hour Battery Life",
+      "Touch Controls",
+      "Bluetooth 5.2",
+      "Compatible with iOS and Android"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 14,
+    "product_title": "iPad Air (5th Gen)",
+    "product_image": "/public/GadgetImg/iPad-Air-(5th Gen).jpg",
+    "category": "accessories",
+    "price": 599.99,
+    "description": "The iPad Air (5th Gen) features the M1 chip and a stunning Liquid Retina display.",
+    "Specification": [
+      "10.9-inch Liquid Retina Display",
+      "Apple M1 Chip",
+      "64GB Storage",
+      "12MP Front Camera",
+      "iPadOS 16"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 15,
+    "product_title": "Samsung Galaxy Buds2 Pro",
+    "product_image": "/public/GadgetImg/Samsung-Galaxy-Buds2-Pro.jpg",
+    "category": "accessories",
+    "price": 229.99,
+    "description": "The Samsung Galaxy Buds2 Pro offer premium sound quality and active noise cancellation.",
+    "Specification": [
+      "Active Noise Cancellation",
+      "24-bit Hi-Fi Audio",
+      "5-hour Battery Life",
+      "Wireless Charging",
+      "IPX7 Water Resistance"
+    ],
+    "availability": true,
+    "rating": 4.6
+  }
+]

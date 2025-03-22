@@ -1,10 +1,12 @@
 import React from "react";
 import BannerImg from "../BannerImg/BannerImg";
+import Gadgets from "../Gadgets/Gadgets";
 
 const Home = () => {
   return (
-    <div className="mb-[1000px]">
+    <div>
       <BannerImg></BannerImg>
+      <Gadgets></Gadgets>
     </div>
   );
 };
