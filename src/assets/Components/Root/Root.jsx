@@ -7,7 +7,7 @@ const Root = () => {
   const location = useLocation();
   const isHomePage = location.pathname === "/";
   return (
-    <div className="w-11/12 mx-auto">
+    <div className=" mx-auto">
       <NavBar isHomePage={isHomePage}></NavBar>
       <Outlet></Outlet>
       <Footer></Footer>
