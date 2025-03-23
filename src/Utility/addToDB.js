@@ -20,6 +20,10 @@ const AddToStoredCart = (id) => {
   }
 };
 
+const clearStoredCart = () => {
+  localStorage.removeItem("cart");
+};
+
 const getStoredWishList = () => {
   const storedWishListStr = localStorage.getItem("wish-list");
   if (storedWishListStr) {
@@ -28,6 +32,11 @@ const getStoredWishList = () => {
   } else {
     return [];
   }
+};
+
+const updateStoredCart = (cartItems) => {
+  const cartIds = cartItems.map((item) => item.product_id);
+  localStorage.setItem("cart", JSON.stringify(cartIds));
 };
 
 const AddToStoredWishList = (id) => {
@@ -46,4 +55,6 @@ export {
   getStoredWishList,
   AddToStoredCart,
   AddToStoredWishList,
+  clearStoredCart,
+  updateStoredCart,
 };

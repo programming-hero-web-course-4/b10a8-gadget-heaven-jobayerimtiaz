@@ -18,8 +18,8 @@ const Wishlist = () => {
   }, []);
 
   return (
-    <div>
-      <h1>This is from wishlist: {wishlist.length}</h1>
+    <div className="mt-8">
+      <h2 className="text-2xl font-bold">WishList</h2>
       {wishlist.map((product) => (
         <WishlistItem key={product.product_id} product={product}></WishlistItem>
       ))}

@@ -3,7 +3,7 @@ import React from "react";
 const WishlistItem = ({ product }) => {
   const { product_image, product_title, description, price } = product;
   return (
-    <div className="card card-side bg-base-100 shadow-sm h-48 p-4 m-8">
+    <div className="card card-side bg-base-100 shadow-sm h-48 py-4 my-8">
       <figure>
         <img className="w-full" src={product_image} alt={product_title} />
       </figure>
