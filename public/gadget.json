@@ -3,7 +3,7 @@
     "product_id": 1,
     "product_title": "Dell XPS 13",
     "product_image": "/public/GadgetImg/Dell-XPS-13-Plus-1.jpg",
-    "category": "laptop",
+    "category": "Laptop",
     "price": 1299.99,
     "description": "The Dell XPS 13 is a compact and powerful laptop with a stunning InfinityEdge display.",
     "Specification": [
@@ -20,7 +20,7 @@
     "product_id": 2,
     "product_title": "Samsung Galaxy S22 Ultra",
     "product_image": "/public/GadgetImg/S22_Ultra_ProductKV_Green_MO.jpg",
-    "category": "phone",
+    "category": "Phone",
     "price": 1199.99,
     "description": "The Samsung Galaxy S22 Ultra features a powerful camera and a sleek design.",
     "Specification": [
@@ -37,7 +37,7 @@
     "product_id": 3,
     "product_title": "Apple Watch Series 8",
     "product_image": "/public/GadgetImg/Apple-watch-series-8.jpg",
-    "category": "smart watch",
+    "category": "Smart Watch",
     "price": 399.99,
     "description": "The Apple Watch Series 8 offers advanced health features and a stylish design.",
     "Specification": [
@@ -54,7 +54,7 @@
     "product_id": 4,
     "product_title": "MacBook Air M2",
     "product_image": "/public/GadgetImg/MacBook-Air-M2.jpg",
-    "category": "macbook",
+    "category": "Macbook",
     "price": 1499.99,
     "description": "The MacBook Air M2 is a lightweight and powerful laptop with Apple's latest chip.",
     "Specification": [
@@ -71,7 +71,7 @@
     "product_id": 5,
     "product_title": "iPhone 14 Pro",
     "product_image": "/public/GadgetImg/iPhone-14-Pro.jpg",
-    "category": "iphone",
+    "category": "Iphone",
     "price": 999.99,
     "description": "The iPhone 14 Pro features a Dynamic Island and a powerful A16 Bionic chip.",
     "Specification": [
@@ -88,7 +88,7 @@
     "product_id": 6,
     "product_title": "AirPods Pro (2nd Gen)",
     "product_image": "/public/GadgetImg/airpods-pro-2.jpg",
-    "category": "accessories",
+    "category": "Accessories",
     "price": 249.99,
     "description": "The AirPods Pro (2nd Gen) offer active noise cancellation and a customizable fit.",
     "Specification": [
@@ -105,7 +105,7 @@
     "product_id": 7,
     "product_title": "HP Spectre x360",
     "product_image": "/public/GadgetImg/HP-Spectre-X360-2.jpg",
-    "category": "laptop",
+    "category": "Laptop",
     "price": 1399.99,
     "description": "The HP Spectre x360 is a versatile 2-in-1 laptop with a sleek design.",
     "Specification": [
@@ -122,7 +122,7 @@
     "product_id": 8,
     "product_title": "Google Pixel 7 Pro",
     "product_image": "/public/GadgetImg/Pixel-7-Pro-Obsidian-8439.jpg",
-    "category": "phone",
+    "category": "Phone",
     "price": 899.99,
     "description": "The Google Pixel 7 Pro features a powerful camera and Google's Tensor G2 chip.",
     "Specification": [
@@ -138,8 +138,8 @@
   {
     "product_id": 9,
     "product_title": "Samsung Galaxy Watch 5",
-    "product_image": "/public/GadgetImg/Apple-watch-series-8.jpg",
-    "category": "smart watch",
+    "product_image": "/public/GadgetImg/Samsung-Galaxy-Watch.jpg",
+    "category": "Smart Watch",
     "price": 279.99,
     "description": "The Samsung Galaxy Watch 5 offers advanced health tracking and a durable design.",
     "Specification": [
@@ -156,7 +156,7 @@
     "product_id": 10,
     "product_title": "MacBook Pro 14-inch",
     "product_image": "/public/GadgetImg/MacBook-Pro-14-inch.jpg",
-    "category": "macbook",
+    "category": "Macbook",
     "price": 1999.99,
     "description": "The MacBook Pro 14-inch is a powerhouse for professionals with the M1 Pro chip.",
     "Specification": [
@@ -173,7 +173,7 @@
     "product_id": 11,
     "product_title": "iPhone SE (2022)",
     "product_image": "/public/GadgetImg/iPhone-SE-(2022).jpg",
-    "category": "iphone",
+    "category": "Iphone",
     "price": 429.99,
     "description": "The iPhone SE (2022) combines a classic design with the power of the A15 Bionic chip.",
     "Specification": [
@@ -190,7 +190,7 @@
     "product_id": 12,
     "product_title": "Logitech MX Master 3S",
     "product_image": "/public/GadgetImg/Logitech-MX-Master-3S.jpg",
-    "category": "accessories",
+    "category": "Accessories",
     "price": 99.99,
     "description": "The Logitech MX Master 3S is a premium wireless mouse designed for productivity.",
     "Specification": [
@@ -207,7 +207,7 @@
     "product_id": 13,
     "product_title": "Sony WH-1000XM5",
     "product_image": "/public/GadgetImg/Sony-WH-1000XM5.jpg",
-    "category": "accessories",
+    "category": "Accessories",
     "price": 399.99,
     "description": "The Sony WH-1000XM5 offers industry-leading noise cancellation and exceptional sound quality.",
     "Specification": [
@@ -224,7 +224,7 @@
     "product_id": 14,
     "product_title": "iPad Air (5th Gen)",
     "product_image": "/public/GadgetImg/iPad-Air-(5th Gen).jpg",
-    "category": "accessories",
+    "category": "Accessories",
     "price": 599.99,
     "description": "The iPad Air (5th Gen) features the M1 chip and a stunning Liquid Retina display.",
     "Specification": [
@@ -241,7 +241,7 @@
     "product_id": 15,
     "product_title": "Samsung Galaxy Buds2 Pro",
     "product_image": "/public/GadgetImg/Samsung-Galaxy-Buds2-Pro.jpg",
-    "category": "accessories",
+    "category": "Accessories",
     "price": 229.99,
     "description": "The Samsung Galaxy Buds2 Pro offer premium sound quality and active noise cancellation.",
     "Specification": [
@@ -253,5 +253,209 @@
     ],
     "availability": true,
     "rating": 4.6
+  },
+  {
+    "product_id": 16,
+    "product_title": "OnePlus 11 5G",
+    "product_image": "/public/GadgetImg/OnePlus-11-5G.jpg",
+    "category": "Phone",
+    "price": 799.99,
+    "description": "The OnePlus 11 5G offers a smooth 120Hz display and a powerful Snapdragon processor.",
+    "Specification": [
+      "6.7-inch QHD+ AMOLED Display",
+      "Snapdragon 8 Gen 2",
+      "16GB RAM",
+      "256GB Storage",
+      "5000mAh Battery"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 17,
+    "product_title": "Google Pixel 6a",
+    "product_image": "/public/GadgetImg/Google-Pixel-6a.jpg",
+    "category": "Phone",
+    "price": 449.99,
+    "description": "The Google Pixel 6a is an affordable smartphone with exceptional camera performance.",
+    "Specification": [
+      "6.1-inch OLED Display",
+      "Google Tensor Chip",
+      "6GB RAM",
+      "128GB Storage",
+      "4410mAh Battery"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 18,
+    "product_title": "Samsung Galaxy Z Fold 4",
+    "product_image": "/public/GadgetImg/Samsung-Galaxy-Z-Fold-4.jpg",
+    "category": "Phone",
+    "price": 1799.99,
+    "description": "The Samsung Galaxy Z Fold 4 offers a foldable display and high-end performance.",
+    "Specification": [
+      "7.6-inch Foldable Dynamic AMOLED Display",
+      "Snapdragon 8+ Gen 1",
+      "12GB RAM",
+      "512GB Storage",
+      "4400mAh Battery"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 19,
+    "product_title": "Asus ROG Phone 6",
+    "product_image": "/public/GadgetImg/Asus-ROG-Phone-6.jpg",
+    "category": "Phone",
+    "price": 999.99,
+    "description": "The Asus ROG Phone 6 is a gaming powerhouse with a high refresh rate display.",
+    "Specification": [
+      "6.78-inch AMOLED Display (165Hz)",
+      "Snapdragon 8+ Gen 1",
+      "16GB RAM",
+      "512GB Storage",
+      "6000mAh Battery"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 20,
+    "product_title": "Lenovo ThinkPad X1 Carbon",
+    "product_image": "/public/GadgetImg/ThinkPad-X1-Carbon.jpg",
+    "category": "Laptop",
+    "price": 1699.99,
+    "description": "The Lenovo ThinkPad X1 Carbon is an ultra-light laptop built for business professionals.",
+    "Specification": [
+      "14-inch FHD+ Display",
+      "Intel Core i7-1260P",
+      "16GB RAM",
+      "1TB SSD",
+      "Windows 11 Pro"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 21,
+    "product_title": "Acer Predator Helios 300",
+    "product_image": "/public/GadgetImg/Acer-Predator-Helios-300.jpg",
+    "category": "Laptop",
+    "price": 1399.99,
+    "description": "The Acer Predator Helios 300 is a powerful gaming laptop with a high refresh rate screen.",
+    "Specification": [
+      "15.6-inch 165Hz QHD Display",
+      "Intel Core i7-12700H",
+      "16GB RAM",
+      "1TB SSD",
+      "NVIDIA RTX 3070 Ti"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 22,
+    "product_title": "Microsoft Surface Laptop 5",
+    "product_image": "/public/GadgetImg/Microsoft-Surface-Laptop-5.jpg",
+    "category": "Laptop",
+    "price": 1299.99,
+    "description": "The Microsoft Surface Laptop 5 is a sleek and lightweight laptop with a touchscreen.",
+    "Specification": [
+      "13.5-inch PixelSense Display",
+      "Intel Core i7-1265U",
+      "16GB RAM",
+      "512GB SSD",
+      "Windows 11 Home"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 23,
+    "product_title": "Razer Blade 15",
+    "product_image": "/public/GadgetImg/Razer-Blade-15.jpg",
+    "category": "Laptop",
+    "price": 2499.99,
+    "description": "The Razer Blade 15 is a high-end gaming laptop with a sleek, premium design.",
+    "Specification": [
+      "15.6-inch 240Hz OLED Display",
+      "Intel Core i9-13900H",
+      "32GB RAM",
+      "1TB SSD",
+      "NVIDIA RTX 4080"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 24,
+    "product_title": "iPhone 14",
+    "product_image": "/public/GadgetImg/iPhone-14.jpg",
+    "category": "Iphone",
+    "price": 799.99,
+    "description": "The iPhone 14 delivers an excellent camera and performance with the A15 Bionic chip.",
+    "Specification": [
+      "6.1-inch Super Retina XDR Display",
+      "A15 Bionic Chip",
+      "128GB Storage",
+      "Dual 12MP Cameras",
+      "iOS 16"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 25,
+    "product_title": "iPhone 14 Plus",
+    "product_image": "/public/GadgetImg/iPhone-14-Plus.jpg",
+    "category": "Iphone",
+    "price": 899.99,
+    "description": "The iPhone 14 Plus features a larger display and extended battery life.",
+    "Specification": [
+      "6.7-inch Super Retina XDR Display",
+      "A15 Bionic Chip",
+      "128GB Storage",
+      "Dual 12MP Cameras",
+      "iOS 16"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 26,
+    "product_title": "MacBook Pro 16-inch",
+    "product_image": "/public/GadgetImg/MacBook-Pro-16-inch.jpg",
+    "category": "Macbook",
+    "price": 2499.99,
+    "description": "The MacBook Pro 16-inch is a professional-grade laptop with incredible performance.",
+    "Specification": [
+      "16.2-inch Liquid Retina XDR Display",
+      "Apple M1 Max Chip",
+      "32GB RAM",
+      "1TB SSD",
+      "macOS Ventura"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 27,
+    "product_title": "MacBook Air M1",
+    "product_image": "/public/GadgetImg/MacBook-Air-M1.jpg",
+    "category": "Macbook",
+    "price": 999.99,
+    "description": "The MacBook Air M1 is a lightweight and power-efficient laptop with the M1 chip.",
+    "Specification": [
+      "13.3-inch Retina Display",
+      "Apple M1 Chip",
+      "8GB RAM",
+      "256GB SSD",
+      "macOS Big Sur"
+    ],
+    "availability": true,
+    "rating": 4.8
   }
 ]

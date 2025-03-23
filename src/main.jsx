@@ -7,6 +7,7 @@ import Root from "./assets/Components/Root/Root";
 import Home from "./assets/Components/Home/Home";
 import Dashboard from "./assets/Components/Dashboard/Dashboard";
 import Statistics from "./assets/Components/Statistics/Statistics";
+import ProductButtons from "./assets/Components/ProductButtons/ProductButtons";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,11 @@ const router = createBrowserRouter([
       {
         path: "statistics",
         element: <Statistics></Statistics>,
+      },
+      {
+        path: "category",
+        element: <ProductButtons></ProductButtons>,
+        loader: () => fetch("/gadget.json"),
       },
     ],
   },
