@@ -39,6 +39,16 @@ const NavBar = ({ isHomePage }) => {
           Dashboard
         </Link>
       </li>
+      <li>
+        <Link
+          className={`text-base font-bold  ${
+            isHomePage ? "text-white" : "text-black"
+          }`}
+          to="/gadgetDoctor"
+        >
+          Gadget Doctor
+        </Link>
+      </li>
     </>
   );
   return (

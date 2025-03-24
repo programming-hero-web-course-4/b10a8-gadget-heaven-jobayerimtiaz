@@ -21,15 +21,17 @@ const Statistics = () => {
           level. From smart devices to the coolest accessories, we have it all!
         </p>
       </div>
-      <div style={{ width: "100%", height: "400px", margin: "20px 0" }}>
-        <ResponsiveContainer width="100%" height="100%">
-          <BarChart data={allGadget}>
-            <Bar dataKey="price" fill="#8884d8" />
-            <XAxis dataKey="product_title"></XAxis>
-            <YAxis dataKey="price"></YAxis>
-            <Tooltip></Tooltip>
-          </BarChart>
-        </ResponsiveContainer>
+      <div className="w-11/12 mx-auto">
+        <div style={{ width: "100%", height: "400px", margin: "20px 0" }}>
+          <ResponsiveContainer width="100%" height="100%">
+            <BarChart data={allGadget}>
+              <Bar dataKey="price" fill="#8884d8" />
+              <XAxis dataKey="product_title"></XAxis>
+              <YAxis dataKey="price"></YAxis>
+              <Tooltip></Tooltip>
+            </BarChart>
+          </ResponsiveContainer>
+        </div>
       </div>
     </div>
   );
