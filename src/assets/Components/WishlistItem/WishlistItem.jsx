@@ -1,14 +1,26 @@
 import React from "react";
+import { RxCrossCircled } from "react-icons/rx";
 
-const WishlistItem = ({ product }) => {
-  const { product_image, product_title, description, price } = product;
+const WishlistItem = ({ product, removeItemsFromList }) => {
+  const { product_image, product_title, description, price, product_id } =
+    product;
   return (
     <div className="card card-side bg-base-100 shadow-sm h-48 py-4 my-8">
       <figure>
         <img className="w-full" src={product_image} alt={product_title} />
       </figure>
       <div className="card-body">
-        <h2 className="card-title text-2xl font-semibold">{product_title}</h2>
+        <div className="flex justify-between">
+          <h2 className="card-title text-2xl font-semibold">{product_title}</h2>
+          <button
+            onClick={() => {
+              removeItemsFromList(product_id);
+            }}
+            className="text-2xl text-red-500 cursor-pointer"
+          >
+            <RxCrossCircled />
+          </button>
+        </div>
         <p className="text-lg font-normal text-[#09080F99]">{description}</p>
         <p className="text-[#09080FCC] text-xl font-semibold">
           Price: ${price}

@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import { FiShoppingCart } from "react-icons/fi";
 import { CiHeart } from "react-icons/ci";
 import { AddToStoredCart, AddToStoredWishList } from "../../../Utility/addToDB";
+import { toast } from "react-toastify";
 
 const ProductDetails = () => {
+  const [isCart, setIsCart] = useState(false);
+  const [isWishListed, setIsWishListed] = useState(false);
+
   const data = useLoaderData();
   const { product_id } = useParams();
   console.log(data);
@@ -25,10 +29,20 @@ const ProductDetails = () => {
 
   const handleCartList = (id) => {
     AddToStoredCart(id);
+    if (!isCart) {
+      toast.success(`Added to Cart!`);
+      setIsCart(true);
+    } else {
+      toast.info("Already In Cart");
+    }
   };
 
   const handleWishList = (id) => {
     AddToStoredWishList(id);
+    if (!isWishListed) {
+      toast.success(`Added to Wishlist!`);
+      setIsWishListed(true);
+    }
   };
 
   return (
@@ -120,15 +134,18 @@ const ProductDetails = () => {
               onClick={() => {
                 handleCartList(currentProduct);
               }}
-              className="btn btn-primary bg-[#9538E2] border-none rounded-3xl text-lg font-bold"
+              className="btn btn-primary bg-[#9538E2] border-none rounded-3xl text-lg hover:cursor-pointer font-bold"
             >
-              Add To Card <FiShoppingCart />
+              Add To Cart <FiShoppingCart />
             </button>
             <div
               onClick={() => {
                 handleWishList(currentProduct);
               }}
-              className="flex justify-center items-center w-10 h-10 text-lg bg-white rounded-full cursor-pointer border-1 border-gray-300 ml-3"
+              className={`flex justify-center items-center w-10 h-10 text-lg bg-white rounded-full cursor-pointer  border-1 border-gray-300 ml-3 text-black  ${
+                isWishListed ? " border-none" : "hover:bg-gray-400"
+              }`}
+              disabled={isWishListed}
             >
               <CiHeart />
             </div>

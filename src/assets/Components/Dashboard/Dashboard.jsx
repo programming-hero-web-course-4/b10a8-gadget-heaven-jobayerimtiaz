@@ -15,11 +15,11 @@ const Dashboard = () => {
         <div className="flex gap-6 mt-6 justify-center items-center">
           <Link
             to="cart"
-            className={`text-lg font-extrabold btn btn-soft border-none rounded-3xl px-8 ${
+            className={`text-lg font-extrabold btn btn-soft rounded-3xl px-8  ${
               location.pathname.endsWith("/cart") ||
               location.pathname.endsWith("dashboard")
                 ? "bg-white text-[#9538E2]"
-                : "bg-[#9538E2] text-white"
+                : "bg-[#9538E2] text-white "
             }`}
           >
             Cart
@@ -27,7 +27,7 @@ const Dashboard = () => {
 
           <Link
             to="wishlist"
-            className={`text-lg font-extrabold btn btn-soft border-none rounded-3xl px-8 ${
+            className={`text-lg font-extrabold btn btn-soft rounded-3xl px-8 ${
               location.pathname.endsWith("/wishlist")
                 ? "bg-white text-[#9538E2]"
                 : "bg-[#9538E2] text-white"
