@@ -21,7 +21,7 @@ const AddToStoredCart = (id) => {
 };
 
 const clearStoredCart = () => {
-  localStorage.removeItem("cart");
+  localStorage.removeItem("cart-list");
 };
 
 const getStoredWishList = () => {
@@ -36,7 +36,7 @@ const getStoredWishList = () => {
 
 const updateStoredCart = (cartItems) => {
   const cartIds = cartItems.map((item) => item.product_id);
-  localStorage.setItem("cart", JSON.stringify(cartIds));
+  localStorage.setItem("cart-list", JSON.stringify(cartIds));
 };
 
 const AddToStoredWishList = (id) => {

@@ -11,19 +11,20 @@ import { MdSort } from "react-icons/md";
 
 const Cart = () => {
   const [cartList, setCartList] = useState([]);
+  const [purchaseTotal, setPurchaseTotal] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const allGadgets = useLoaderData();
 
   useEffect(() => {
-    const storedCartList = getStoredCart();
-    const storedCartListInt = storedCartList.map((id) => parseInt(id));
-    const gadgetList = allGadgets.filter((item) =>
-      storedCartListInt.includes(item.product_id)
-    );
-    console.log(storedCartList, storedCartListInt, allGadgets, cartList);
-    setCartList(gadgetList);
-  }, []);
+    const storedCart = getStoredCart();
+    if (storedCart && storedCart.length > 0) {
+      const storedIds = storedCart.map((id) => parseInt(id));
+      setCartList(
+        allGadgets.filter((item) => storedIds.includes(item.product_id))
+      );
+    }
+  }, [allGadgets]);
 
   const totalPrice = cartList
     .reduce((total, item) => total + item.price, 0)
@@ -35,9 +36,10 @@ const Cart = () => {
   };
 
   const handlePurchase = () => {
-    setIsModalOpen(true);
-    setCartList([]);
+    setPurchaseTotal(totalPrice);
     clearStoredCart();
+    setCartList([]);
+    setIsModalOpen(true);
   };
 
   const closeModal = () => {
@@ -86,11 +88,9 @@ const Cart = () => {
         <div className="fixed inset-0 flex items-center justify-center">
           <div className="bg-white p-6 rounded-lg shadow-lg flex items-center justify-center flex-col">
             <img src="/src/images/Group.png" alt="" />
-            <h2 className="text-2xl font-bold mb-4 mt-4">
-              Payment Successfully
-            </h2>
+            <h2 className="text-2xl font-bold mb-4 mt-4">Payment Successful</h2>
             <p>Thanks for purchasing</p>
-            <p>Total: {totalPrice}</p>
+            <p>Total: {purchaseTotal}</p>
             <div className="mt-4 flex justify-end gap-4">
               <button
                 onClick={closeModal}

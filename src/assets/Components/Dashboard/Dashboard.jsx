@@ -16,7 +16,8 @@ const Dashboard = () => {
           <Link
             to="cart"
             className={`text-lg font-extrabold btn btn-soft border-none rounded-3xl px-8 ${
-              location.pathname.endsWith("/cart")
+              location.pathname.endsWith("/cart") ||
+              location.pathname.endsWith("dashboard")
                 ? "bg-white text-[#9538E2]"
                 : "bg-[#9538E2] text-white"
             }`}

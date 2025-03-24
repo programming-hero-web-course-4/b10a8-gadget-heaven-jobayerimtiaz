@@ -2,7 +2,11 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {
+  createBrowserRouter,
+  Navigate,
+  RouterProvider,
+} from "react-router-dom";
 import Root from "./assets/Components/Root/Root";
 import Home from "./assets/Components/Home/Home";
 import Dashboard from "./assets/Components/Dashboard/Dashboard";
@@ -30,6 +34,11 @@ const router = createBrowserRouter([
         path: "dashboard",
         element: <Dashboard></Dashboard>,
         children: [
+          {
+            index: true,
+            element: <Cart></Cart>,
+            loader: () => fetch("/gadget.json"),
+          },
           {
             path: "cart",
             element: <Cart></Cart>,
