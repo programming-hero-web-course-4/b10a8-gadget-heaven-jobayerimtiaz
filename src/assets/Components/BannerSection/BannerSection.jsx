@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const BannerSection = () => {
   return (
@@ -10,9 +11,11 @@ const BannerSection = () => {
         Explore the latest gadgets that will take your experience to the next
         level. From smart devices to the coolest accessories, we have it all!
       </p>
-      <button className="btn btn-soft rounded-3xl text-[#9538E2] font-bold text-xl">
-        Shop Now
-      </button>
+      <Link to="/dashboard">
+        <button className="btn btn-soft rounded-3xl text-[#9538E2] font-bold text-xl">
+          Shop Now
+        </button>
+      </Link>
     </div>
   );
 };
