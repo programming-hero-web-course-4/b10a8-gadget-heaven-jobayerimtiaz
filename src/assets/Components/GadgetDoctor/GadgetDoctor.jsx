@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { toast } from "react-toastify";
 import {
   FiSmartphone,
@@ -10,6 +10,9 @@ import {
 } from "react-icons/fi";
 
 const GadgetDoctor = () => {
+  useEffect(() => {
+    document.title = "Gadget Doctor | Gadget Heaven";
+  }, []);
   const [formData, setFormData] = useState({
     name: "",
     email: "",

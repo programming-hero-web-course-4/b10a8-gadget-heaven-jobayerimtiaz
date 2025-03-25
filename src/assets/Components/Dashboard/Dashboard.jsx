@@ -1,13 +1,18 @@
+import { useEffect } from "react";
 import { useLocation, Link, Outlet } from "react-router-dom";
 
 const Dashboard = () => {
+  useEffect(() => {
+    document.title = "Dashboard | Gadget Heaven";
+  }, []);
+
   const location = useLocation();
 
   return (
     <div>
       <div className="bg-[#9538E2] pb-8 pt-8 text-center text-white">
-        <h1 className="text-3xl font-bold">Dashboard</h1>
-        <p className="text-base font-normal py-4">
+        <h1 className="text-lg md:text-3xl font-bold">Dashboard</h1>
+        <p className="text-sm px-2 md:text-base font-normal py-4">
           Explore the latest gadgets that will take your experience to the next
           level. From smart devices to the coolest accessories, we have it all!
         </p>

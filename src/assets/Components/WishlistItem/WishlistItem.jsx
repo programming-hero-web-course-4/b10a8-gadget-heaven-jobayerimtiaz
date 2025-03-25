@@ -5,9 +5,13 @@ const WishlistItem = ({ product, removeItemsFromList }) => {
   const { product_image, product_title, description, price, product_id } =
     product;
   return (
-    <div className="card card-side bg-base-100 shadow-sm h-48 py-4 my-8">
+    <div className="card card-side bg-base-100 shadow-sm md:h-48 py-4 my-8 flex flex-col md:flex-row">
       <figure>
-        <img className="w-full" src={product_image} alt={product_title} />
+        <img
+          className="w-40 h-40 md:w-full md:h-full"
+          src={product_image}
+          alt={product_title}
+        />
       </figure>
       <div className="card-body">
         <div className="flex justify-between">

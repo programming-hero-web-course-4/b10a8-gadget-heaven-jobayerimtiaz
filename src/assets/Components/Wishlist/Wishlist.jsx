@@ -14,6 +14,7 @@ const Wishlist = () => {
     const productList = allProducts.filter((item) =>
       storedWishListInt.includes(item.product_id)
     );
+    document.title = "Wishlist | Gadget Heaven";
     setWishlist(productList);
   }, []);
 

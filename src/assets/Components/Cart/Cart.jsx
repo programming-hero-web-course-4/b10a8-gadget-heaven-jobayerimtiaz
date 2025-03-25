@@ -24,6 +24,7 @@ const Cart = () => {
         allGadgets.filter((item) => storedIds.includes(item.product_id))
       );
     }
+    document.title = "Cart | Gadget Heaven";
   }, [allGadgets]);
 
   const totalPrice = cartList
@@ -56,10 +57,12 @@ const Cart = () => {
 
   return (
     <div className="mt-8">
-      <div className="flex justify-between">
-        <h2 className="text-2xl font-bold">Cart</h2>
-        <div className="flex items-center gap-6">
-          <h2 className="text-2xl font-bold">Total Cost: {totalPrice}</h2>
+      <div className="flex justify-between flex-col md:flex-row">
+        <h2 className="text-2xl text-center font-bold">Cart</h2>
+        <div className="flex flex-col md:flex-row items-center gap-6">
+          <h2 className="text-lg md:text-2xl font-bold">
+            Total Cost: {totalPrice}
+          </h2>
           <button
             onClick={handleSort}
             className="btn bg-white text-[#9538E2] btn-primary border-[#9538E2] rounded-3xl"

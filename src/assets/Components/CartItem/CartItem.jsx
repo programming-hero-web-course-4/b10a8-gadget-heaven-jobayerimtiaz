@@ -5,9 +5,13 @@ const CartItem = ({ selectedCart, removeItemsFromCart }) => {
   const { product_title, product_image, description, price, product_id } =
     selectedCart;
   return (
-    <div className="card card-side bg-base-100 shadow-sm h-48 py-4 my-8">
+    <div className="card card-side bg-base-100 shadow-sm md:h-48 py-4 my-8 flex flex-col md:flex-row">
       <figure>
-        <img src={product_image} alt={product_title} />
+        <img
+          className="w-40 h-40 md:w-full md:h-full"
+          src={product_image}
+          alt={product_title}
+        />
       </figure>
       <div className="card-body">
         <div className="flex justify-between">

@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+/* eslint-disable react-hooks/exhaustive-deps */
+import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import { FiShoppingCart } from "react-icons/fi";
 import { CiHeart } from "react-icons/ci";
@@ -26,6 +27,10 @@ const ProductDetails = () => {
     rating,
     availability,
   } = gadget;
+
+  useEffect(() => {
+    document.title = `${product_title} Details | Gadget Heaven`;
+  }, []);
 
   const handleCartList = (id) => {
     AddToStoredCart(id);

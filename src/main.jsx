@@ -13,6 +13,7 @@ import Cart from "./assets/Components/Cart/Cart";
 import Wishlist from "./assets/Components/Wishlist/Wishlist";
 import { ToastContainer } from "react-toastify";
 import GadgetDoctor from "./assets/Components/GadgetDoctor/GadgetDoctor";
+import { HelmetProvider } from "react-helmet-async";
 
 const router = createBrowserRouter([
   {
