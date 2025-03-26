@@ -236,10 +236,10 @@ const Navbar = ({ isHomePage }) => {
 
             <div className="navbar-end hidden md:flex">
               <div className="flex items-center gap-4">
-                <button className="p-2 border-1 border-gray-300 rounded-full bg-white hover:bg-gray-100 transition-colors">
+                <button className="p-2 border-1 border-gray-300 rounded-full bg-white hover:bg-gray-100 cursor-pointer transition-colors">
                   <IoCartOutline className={`text-xl`} />
                 </button>
-                <button className="p-2 border-1 border-gray-300 rounded-full bg-white hover:bg-gray-100 transition-colors">
+                <button className="p-2 border-1 border-gray-300 rounded-full bg-white hover:bg-gray-100 cursor-pointer transition-colors">
                   <CiHeart className={`text-xl `} />
                 </button>
               </div>

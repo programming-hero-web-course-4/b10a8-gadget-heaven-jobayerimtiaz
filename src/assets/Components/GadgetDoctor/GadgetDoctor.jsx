@@ -92,7 +92,7 @@ const GadgetDoctor = () => {
                 <h3 className="text-xl font-bold mb-3">Response Time</h3>
                 <ul className="space-y-2">
                   <li className="flex items-center">
-                    <span className="bg-white bg-opacity-20 rounded-full w-6 h-6 flex items-center justify-center mr-3">
+                    <span className="bg-white bg-opacity-20 rounded-full w-6 h-6 flex items-center justify-center mr-3 text-black">
                       !
                     </span>
                     <span>Normal Cases: 24-48 hours</span>

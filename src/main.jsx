@@ -14,11 +14,13 @@ import Wishlist from "./assets/Components/Wishlist/Wishlist";
 import { ToastContainer } from "react-toastify";
 import GadgetDoctor from "./assets/Components/GadgetDoctor/GadgetDoctor";
 import { HelmetProvider } from "react-helmet-async";
+import ErrorPage from "./assets/Components/ErrorPage/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
